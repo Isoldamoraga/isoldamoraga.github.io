@@ -1,0 +1,119 @@
+/* -- HEADER -- */
+.navbar {
+	margin-bottom: 0;
+}
+
+.jumbotron {
+	background: #448AFF;
+	color:#fff;
+	padding:15px 0;
+}
+
+.container.navbar-header p{
+	align-content: center;
+}
+
+/*imagen del header*/
+.header img{
+	width:50%;
+	height: 50%;
+    margin-top: 25px;
+    margin-left: 5px;
+    padding-left: 10px;
+}
+/*imagen del header*/
+
+
+.header{
+    height: 80px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.header p{
+    color: white;
+    margin-top: 20px;
+    margin-right: 25px;
+    text-align: right;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header:hover{
+	border: yellowgreen solid 3px;	
+}
+
+/*.foto{
+	width:80%;
+	height: 80%;
+	margin-block: 30px 0px;
+	float: right;
+}
+
+
+#uno{
+    display: none;
+}*/
+
+
+/* -- POST -- */
+.main {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.post {
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom:1px solid #999;
+}
+
+.post .post-title a {
+	color:#333;
+}
+
+.post .thumb {
+	margin-right:10px;
+	width:40%;
+}
+
+.post .thumb img {
+	width:100%;
+}
+
+.post .contenedor-botones {
+	width: 100%;
+}
+
+/* -- Media Querie -- */
+@media screen and (max-width: 768px) {
+	.post .thumb {
+		width: 100%;
+		margin-bottom: 20px;
+		margin-right: 0;
+	}
+}
+
+
+/*@media(max-width: 644px) and (min-width: 300px){
+    .container{
+        display: grid;
+	    grid-template-columns: 1fr;
+    }
+}
+
+.header img{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-left:0px;
+    animation-name: rotate;
+    animation-duration: 10s;
+}
+.header p{
+    display: grid;
+    grid-template-columns: 1fr;
+    color: white;
+    margin-top: 25px;
+    margin-right: 10px;	
+}*/
